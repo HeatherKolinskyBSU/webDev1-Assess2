@@ -1,3 +1,39 @@
+/* Changes background colour for the entire page. */
+body {
+    background-color: #fbfbfb;
+}
+
+/* Styles the header. */
+.header {
+    background-color: #F9FBB2;
+    padding: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styles the top navigation bar. */
+.topnav {
+    overflow: hidden;
+    background-color: #F9FBB2;
+}
+
+/* Sets out text styling and spacing. */
+.topnav a {
+    float: left;
+    display: block;
+    color: #BA7BA1;
+    text-align: center;
+    font-size: 25px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Darkens a specific topnav cell when the user hovers over it. */
+.topnav a:hover {
+    background-color: #F9FBB2;
+    color: black;
+}
+
 /* styles the fixed footer used at the bottom of every page */
 .footer{
     position: fixed;
@@ -7,6 +43,7 @@
     padding: 5px;
     background-color: #e0dcdcb2;
 	text-align: left;
+    color: #BA7BA1;
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
