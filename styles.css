@@ -5,10 +5,29 @@ body {
 
 /* Styles the header. */
 .header {
+    position: top;
     background-color: #F9FBB2;
     padding: 20px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Class used to create a white box with the specified style */
+.box-white {
+    border-radius: 15px;
+    padding: 5px, 5px, 5px, 5px;
+    float: center;
+    background-color: #66ff00;
+    text-align: center;
+}
+
+/* Class used to create a green box with the specified style */
+.box-green {
+    border-radius: 15px;
+    padding: 5px, 5px, 5px, 5px;
+    float: center;
+    background-color: #489414;
+    text-align: center;
 }
 
 /* Styles the top navigation bar. */
