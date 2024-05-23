@@ -12,21 +12,39 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Class used to create a white box with the specified style */
-.box-white {
+/* Invisible container for seperating page content and footer */
+.box-invis {
+    margin: 20px;
     border-radius: 15px;
     padding: 5px, 5px, 5px, 5px;
-    float: center;
-    background-color: #66ff00;
+    width: 50%;
+    float: right;
+    background-color: #fbfbfb;
+}
+
+/* Class used to create a green box with the specified style */
+.box-purple-right {
+    margin: 20px;
+    border-radius: 15px;
+    padding: 5px, 5px, 5px, 5px;
+    width: 50%;
+    float: right;
+    background-color: #BA7BA1;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 /* Class used to create a green box with the specified style */
-.box-green {
+.box-purple-left {
+    margin: 20px;
     border-radius: 15px;
     padding: 5px, 5px, 5px, 5px;
-    float: center;
-    background-color: #489414;
+    width: 50%;
+    float: left;
+    background-color: #BA7BA1;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -60,6 +78,7 @@ body {
     bottom: 0;
     width: 100%;
     padding: 5px;
+    margin-top: 50px;
     background-color: #e0dcdcb2;
 	text-align: left;
     color: #BA7BA1;
