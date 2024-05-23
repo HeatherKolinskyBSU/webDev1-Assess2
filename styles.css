@@ -8,13 +8,13 @@ body {
     background-color: #F9FBB2;
     padding: 20px;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Styles the top navigation bar. */
 .topnav {
     overflow: hidden;
-    background-color: #F9FBB2;
+    background-color: white;
 }
 
 /* Sets out text styling and spacing. */
