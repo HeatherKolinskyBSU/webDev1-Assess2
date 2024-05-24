@@ -12,7 +12,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/* Invisible container for seperating page content and footer */
+/* Invisible container for various purposes */
 .box-invis {
     margin: 20px;
     border-radius: 15px;
