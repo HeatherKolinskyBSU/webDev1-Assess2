@@ -17,7 +17,15 @@ body {
     margin: 20px;
     padding: 5px, 5px, 5px, 5px;
     float: right;
-    width: 30%;
+    width: 40%;
+}
+
+/* Container forcing content to the right of the screen */
+.left {
+    margin: 20px;
+    padding: 5px, 5px, 5px, 5px;
+    float: left;
+    width: 40%;
 }
 
 /* Invisible container for various purposes */
