@@ -20,7 +20,7 @@ body {
     width: 40%;
 }
 
-/* Container forcing content to the right of the screen */
+/* Container forcing content to the left of the screen */
 .left {
     margin: 20px;
     padding: 5px, 5px, 5px, 5px;
@@ -43,7 +43,7 @@ body {
     margin: 20px;
     border-radius: 15px;
     padding: 5px, 5px, 5px, 5px;
-    width: 55%;
+    width: 100%;
     float: right;
     background-color: #BA7BA1;
     color: white;
@@ -56,7 +56,7 @@ body {
     margin: 20px;
     border-radius: 15px;
     padding: 5px, 5px, 5px, 5px;
-    width: 55%;
+    width: 100%;
     float: left;
     background-color: #BA7BA1;
     color: white;
