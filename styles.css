@@ -9,7 +9,9 @@ body {
     background-color: #F9FBB2;
     padding: 20px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: lofty-goals;
+    /* No amount of reinstalling this font has made it work. */
+    /* I have lost too many hours of sleep to this. */
 }
 
 /* Container forcing content to the right of the screen */
