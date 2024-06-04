@@ -28,6 +28,16 @@ body {
     width: 40%;
 }
 
+/* Container forcing content to the center of the screen */
+.center {
+    margin: 20px;
+    border-radius: 15px;
+    padding: 5px, 5px, 5px, 5px;
+    width: 95%;
+    float: right;
+    text-align: center;
+}
+
 /* Invisible container for various purposes */
 .box-invis {
     margin: 20px;
